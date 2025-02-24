@@ -11,7 +11,7 @@ export const ROUTES: Route[] = [
     resolve: {
       breadcrumb: i18nBreadcrumbResolver,
     },
-    data: { title: 'mydspace.title', breadcrumbKey: 'mydspace' },
+    data: { title: 'myCoSci', breadcrumbKey: 'myCoSci' },
     canActivate: [
       myDSpaceGuard,
     ],

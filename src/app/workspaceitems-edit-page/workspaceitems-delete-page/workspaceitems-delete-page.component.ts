@@ -91,7 +91,7 @@ export class WorkspaceItemsDeletePageComponent implements OnInit {
       .subscribe((url: string) => {
         let params: Params = {};
         if (!url) {
-          url = '/mydspace';
+          url = '/myCoSci';
           params = this.previousQueryParameters;
         }
         if (url.split('?').length > 1) {

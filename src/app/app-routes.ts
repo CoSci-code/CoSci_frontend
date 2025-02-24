@@ -136,7 +136,7 @@ export const APP_ROUTES: Route[] = [
         canActivate: [endUserAgreementCurrentUserGuard],
       },
       {
-        path: 'mydspace',
+        path: 'myCoSci',
         loadChildren: () => import('./my-dspace-page/my-dspace-page-routes')
           .then((m) => m.ROUTES),
         data: { enableRSS: true },

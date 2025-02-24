@@ -13,7 +13,7 @@ npm-debug.log
 
 /dist/
 /coverage/
-
+.angular
 .idea
 *.iml
 *.ngfactory.ts

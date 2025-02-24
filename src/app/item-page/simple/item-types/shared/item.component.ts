@@ -46,7 +46,7 @@ export class ItemComponent implements OnInit {
    * This regex matches previous routes. The button is shown
    * for matching paths and hidden in other cases.
    */
-  previousRoute = /^(\/search|\/browse|\/collections|\/admin\/search|\/mydspace)/;
+  previousRoute = /^(\/search|\/browse|\/collections|\/admin\/search|\/myCoSci)/;
 
   /**
    * Used to show or hide the back to results button in the view.

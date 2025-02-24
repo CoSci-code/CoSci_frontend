@@ -101,7 +101,7 @@ export abstract class WorkflowItemActionPageDirective implements OnInit {
       .subscribe((url) => {
         let params: Params = {};
         if (isEmpty(url)) {
-          url = '/mydspace';
+          url = '/myCoSci';
           params = this.previousQueryParameters;
         }
         if (url.split('?').length > 1) {

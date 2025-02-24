@@ -28,7 +28,7 @@ import {
 import { MyDSpaceNewSubmissionComponent } from './my-dspace-new-submission/my-dspace-new-submission.component';
 import { MyDspaceQaEventsNotificationsComponent } from './my-dspace-qa-events-notifications/my-dspace-qa-events-notifications.component';
 
-export const MYDSPACE_ROUTE = '/mydspace';
+export const MYDSPACE_ROUTE = '/myCoSci';
 
 /**
  * This component represents the whole mydspace page

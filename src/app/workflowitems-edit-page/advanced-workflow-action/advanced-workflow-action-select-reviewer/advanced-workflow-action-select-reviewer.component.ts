@@ -162,7 +162,7 @@ export class AdvancedWorkflowActionSelectReviewerComponent extends AdvancedWorkf
         configuration: 'workflow',
       };
     }
-    void this.router.navigate(['/mydspace'], { queryParams: queryParams });
+    void this.router.navigate(['/myCoSci'], { queryParams: queryParams });
   }
 
 }

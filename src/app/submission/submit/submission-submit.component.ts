@@ -138,7 +138,7 @@ export class SubmissionSubmitComponent implements OnDestroy, OnInit {
           if (isNotNull(submissionObject)) {
             if (isEmpty(submissionObject)) {
               this.notificationsService.info(null, this.translate.get('submission.general.cannot_submit'));
-              this.router.navigate(['/mydspace']);
+              this.router.navigate(['/myCoSci']);
             } else {
               this.router.navigate(['/workspaceitems', submissionObject.id, 'edit'], { replaceUrl: true });
             }

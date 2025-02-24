@@ -84,7 +84,7 @@ describe('SubmissionSubmitComponent Component', () => {
 
     fixture.detectChanges();
 
-    expect(router.navigate).toHaveBeenCalledWith(['/mydspace']);
+    expect(router.navigate).toHaveBeenCalledWith(['/myCoSci']);
 
   });
 
