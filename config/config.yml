@@ -1,5 +1,5 @@
 rest:
   ssl: true
-  host: CoSci.club
+  host: cosci.club
   port: 443
   nameSpace: /server

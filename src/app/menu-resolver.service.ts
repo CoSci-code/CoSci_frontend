@@ -138,7 +138,7 @@ export class MenuResolverService  {
               index: 1,
               model: {
                 type: MenuItemType.TEXT,
-                text: 'menu.section.browse_global',
+                text: "All of CoSci",
               } as TextMenuItemModel,
             },
           );
